@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(black,rgb(78, 66, 66));
+}
+#navbar .div2{
+    color: white;
+    
+    
+}
+#navbar .div2 h1{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 1.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbar .div2 p{
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(197, 187, 187);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbar .div2 h4{
+    text-align: center;
+    font-size: 1rem;
+    margin: 40px 0 60px 0;
+    color: rgb(197, 187, 187);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbar .div1{
+    background: rgb(38, 34, 34);
+}
+
+
+
+/* Box */
+#Movies{
+    width: 50%;
+    margin: auto;
+    row-gap: 40px;
+    column-gap: 50px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#Movies div{
+   width: 100%;
+   height: 100%;
+   border: 3px solid white;
+   border-radius: 20px;
+   padding: 10px;
+   box-shadow:5px 5px rgb(139, 127, 127);
+}
+
+#Movies div:hover{
+transform: scale(1.1);
+}
+#Movies div h2{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    font-size: 1rem;
+    justify-content: baseline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+
+    
+}
+#Movies div h2:hover{
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+#Movies div p{
+    color: rgb(169, 169, 170);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
